@@ -7,3 +7,4 @@ A project to detect anomalys in network traffic:
  - Integration with AWS IoT - use AWS services to stream data via the cloud
  - Alerts - use AWS SNS, cloudwatch and visualisation techniques and report generation
 
+The docs directory contains instructions on project design, installation and usage
