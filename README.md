@@ -7,7 +7,7 @@ A project to detect anomalys and threats in network traffic:
  - AWS cloud deployment - use AWS services to stream data via the cloud
  - Alerts - use AWS SNS, cloudwatch and report generation
 
-The 1-docs/ directory contains instructions on project design, installation and usage
+The docs/ directory contains instructions on project design, installation and usage
 
 Skills used:
  - C++ network programming, memory management and performance
