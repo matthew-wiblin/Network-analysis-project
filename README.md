@@ -1,6 +1,6 @@
 # Network-analysis-project
 
-Learning skills in python/bash scripting. network OSI and C++
+Learning skills in python/bash scripting, network OSI and C++
 
 Scripting:
  - Bash scripts to automate setup and installation of dependencies
