@@ -17,7 +17,16 @@ def get_ping_connectivity():
     for str in ping_times:
         total_ping_time += float(str)
     ave_ping_time = total_ping_time / 5
-    print(f"Network connectivity: average ping time = {round(ave_ping_time, 3)}, packet loss = {packet_loss}% (5 pings to google)")
+    ave_ping_status = ""
+    if ave_ping_time < 30:
+        ave_ping_status = "Good"
+    elif 30 <= ave_ping_time <= 100:
+        ave_ping_status = "Average"
+    else:
+        ave_ping_status = "Slow"
+    print("Check connectivity:")
+    print("-- Command = 'ping -c 5 google.com'")
+    print(f"-- {ave_ping_status} ping speed, average ping time = {round(ave_ping_time, 3)} ms, packet loss = {packet_loss}%\n")
     return
 
 if __name__ == '__main__':
