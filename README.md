@@ -1,17 +1,11 @@
-# Network-traffic-analysis-pipeline
+# Network-analysis-project
 
-A project to detect anomalys and threats in network traffic:
- - Data collection - collect network traffic and store packet data
- - Data preprocssing - parse and convert data features in python
- - Anomaly detection - train machine learning models to detect anomalys
- - AWS cloud deployment - use AWS services to stream data via the cloud
- - Alerts - use AWS SNS, cloudwatch and report generation
+Learning skills in python/bash scripting. network OSI and C++
 
-The docs/ directory contains instructions on project design, installation and usage
+Scripting:
+ - Bash scripts to automate setup and installation of dependencies
+ - Python scripts to run network troubleshooting tasks
 
-Skills used:
- - C++ network programming, memory management and performance
- - Python data preprocessing, machine learning and visualisation 
- - Data structures and algorithms
- - AWS cloud deployment and hosting
- - Networking protocols and packet sniffing
+Software packets:
+ - Bash script that runs a C++ software packet analyser
+
