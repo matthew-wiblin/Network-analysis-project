@@ -1,6 +1,6 @@
 import subprocess
 
-def test_bandwidth():
+def measure_bandwidth():
 
     result = subprocess.run(["speedtest-cli"], capture_output=True, text=True)
     

@@ -1,6 +1,6 @@
 import subprocess
 
-def get_ping_connectivity():
+def get_ping_info():
 
     result = subprocess.run(["ping", "-c", "5", "google.com"], capture_output=True, text=True)
     ping_times = []
