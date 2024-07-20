@@ -1,6 +1,7 @@
 import subprocess
 
 def get_ping_connectivity():
+
     result = subprocess.run(["ping", "-c", "5", "google.com"], capture_output=True, text=True)
     ping_times = []
     packet_loss = 0
@@ -28,7 +29,7 @@ def get_ping_connectivity():
     else:
         ave_ping_status = "Slow"
 
-    print("Check connectivity:")
+    print("Check Connectivity:")
     print("-- Command = 'ping -c 5 google.com'")
     print(f"-- {ave_ping_status} ping speed, average ping time = {round(ave_ping_time, 3)} ms, packet loss = {packet_loss}%\n")
     return

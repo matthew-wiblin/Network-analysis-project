@@ -19,7 +19,7 @@ def port_scanning():
         except:
             unsuccesful.append(port)
     
-    print("TCP port connection attempts:")
+    print("TCP Port Connection Attempts:")
     print("-- Command = Socket connection attempts")
     print(f"-- Successful port connections = {successful}")
     print(f"-- Connection refused = {connection_refused}")
