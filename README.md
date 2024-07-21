@@ -9,3 +9,10 @@ Scripting:
 Software packets:
  - C++ software packet analyser
 
+Running on debian-based Linux such as Ubuntu:
+ - Run setup_env.sh
+ - For network troubleshooting:
+   - Run network_info.py
+ - For C++ packet analyser:
+   - packet_analyser.sh
+

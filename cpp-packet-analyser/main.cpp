@@ -1,16 +1,14 @@
 #include <pcap.h>
 #include <iostream>
 
-void packet_handler(u_char *user_data, const struct pcap_pkthdr *pkthdr, const u_char *packet) {
-    std::cout << "Packet received, length: " << pkthdr->len << std::endl;
-}
+#include <header.h>
 
 int main() {
     char errbuf[PCAP_ERRBUF_SIZE];
     pcap_t *handle;
 
     // Open the network device for packet capture
-    handle = pcap_open_live("eth0", BUFSIZ, 1, 1000, errbuf);
+    handle = pcap_open_live("enX0", BUFSIZ, 1, 1000, errbuf);
     if (handle == nullptr) {
         std::cerr << "Failed to open device: " << errbuf << std::endl;
         return 1;

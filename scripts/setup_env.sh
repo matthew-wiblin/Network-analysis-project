@@ -9,6 +9,10 @@ sudo apt-get upgrade -y
 echo "Installing script dependencies"
 sudo apt-get install speedtest-cli
 
+echo "Installing g++, libpcap"
+sudo apt install g++
+sudo apt-get install libpcap-dev
+
 if command -v python3 > /dev/null 2>&1; then
     echo "--- Python 3 is already installed ---"
 else
