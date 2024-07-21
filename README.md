@@ -10,11 +10,11 @@ Software packets:
  - C++ software packet analyser.
 
 setup -- run commands:
- - chmod +x setup.sh
- - setup.sh
+ - chmod +x setup.sh network_info.py packet_analyser.sh
+ - ./setup.sh
 
 Network troubleshooting -- run command:
- - network_info.py
+ - ./network_info.py
 
 C++ packet analyser -- run command:
- - packet_analyser.sh
+ - ./packet_analyser.sh

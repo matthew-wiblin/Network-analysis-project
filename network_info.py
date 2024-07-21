@@ -1,3 +1,5 @@
+#!/usr/bin/env python3
+
 from scripts.get_ping_info import get_ping_info
 from scripts.check_dns_resolution import check_dns_resolution
 from scripts.port_scanning import port_scanning

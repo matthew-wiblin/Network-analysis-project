@@ -1,4 +1,6 @@
 #!/bin/bash
 
-echo "running program"
+echo "running packet analyser program"
+cd cpp-packet-analyser
 sudo ./main
+cd ..
