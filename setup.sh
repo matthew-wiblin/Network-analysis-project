@@ -14,7 +14,9 @@ sudo apt install g++
 sudo apt-get install libpcap-dev
 
 echo "Compiling cpp packet analyser"
-sudo g++ -o main cpp-packet-analyser/main.cpp packet_handler.cpp -lpcap
+cd cpp-packet-analyser
+sudo g++ -o main main.cpp packet_handler.cpp -lpcap
+cd ..
 
 if command -v python3 > /dev/null 2>&1; then
     echo "--- Python 3 is already installed ---"
