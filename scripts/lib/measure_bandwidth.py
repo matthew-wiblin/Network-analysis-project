@@ -32,4 +32,4 @@ def measure_bandwidth():
         print(f"-- Upload speed = {upload_speed}\n")
 
 if __name__ == '__main__':
-    test_bandwidth()
+    measure_bandwidth()

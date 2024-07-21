@@ -7,5 +7,5 @@ Scripting:
  - Python scripts to run network troubleshooting tasks
 
 Software packets:
- - Bash script that runs a C++ software packet analyser
+ - C++ software packet analyser
 

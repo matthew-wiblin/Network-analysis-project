@@ -35,4 +35,4 @@ def get_ping_info():
     return
 
 if __name__ == '__main__':
-    get_ping_connectivity()
+    get_ping_info()
