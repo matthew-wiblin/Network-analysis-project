@@ -1,6 +1,6 @@
 # Network-analysis-project
 
-Learning skills in python/bash scripting, network OSI and C++. This is for running on debian-based Linux such as Ubuntu:
+Learning skills in python/bash scripting, network OSI and C++. This is for running on debian-based Linux systems such as Ubuntu:
 
 Scripting:
  - Bash scripts to automate setup and installation of dependencies.
