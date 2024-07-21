@@ -13,6 +13,9 @@ echo "Installing g++, libpcap"
 sudo apt install g++
 sudo apt-get install libpcap-dev
 
+echo "Compiling cpp packet analyser"
+sudo g++ -o main main.cpp -lpcap
+
 if command -v python3 > /dev/null 2>&1; then
     echo "--- Python 3 is already installed ---"
 else
