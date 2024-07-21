@@ -10,8 +10,13 @@ Software packets:
  - C++ software packet analyser
 
 Running on debian-based Linux such as Ubuntu:
- - Run setup.sh
- - For network troubleshooting:
-   - Run network_info.py
- - For C++ packet analyser:
-   - packet_analyser.sh
+
+setup -- run commands:
+ - chmod +x setup.sh
+ - setup.sh
+
+Network troubleshooting -- run command:
+ - network_info.py
+
+C++ packet analyser -- run command:
+ - packet_analyser.sh
