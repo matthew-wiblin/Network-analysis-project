@@ -10,7 +10,7 @@ Software packets:
  - C++ software packet analyser.
 
 setup -- clone the repo if you havent all ready -- run commands:
- - cd Network-analysis project
+ - cd Network-analysis-project
  - chmod +x setup.sh network_info.py packet_analyser.sh
  - ./setup.sh
 
