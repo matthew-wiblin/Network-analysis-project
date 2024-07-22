@@ -1,4 +1,6 @@
-# Network-analysis-project
+<h1 align="center">
+ Network analysis project
+</h1>
 
 Learning skills in python/bash scripting, network OSI and C++. This is for running on debian-based Linux systems such as Ubuntu:
 
